@@ -1,12 +1,84 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    margin-top: 100px;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    background:rgb(255, 255, 246);
+    padding: 30px;
+    }
     
+    ul{
+        padding: 0;
+        margin-bottom: 0;
+        background: whitesmoke;
+        width: 80%;
+    }
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+    ul li{
+        /* border: 1px solid grey; */
+        list-style: none;
+        padding: 5px;
+        /* border-left: 0;
+        border-right:0; */
+        border:0;
+        border-bottom: 1px solid #ddd;
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    }
+    
+    h1{
+        text-align: center;
+        color: pink;
+        font-size: 80px;
+        font-weight: 25;
+        font-style:initial;
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    
+    input{
+        border: none;
+        width: 100%;
+        background: whitesmoke;
+        padding: 0;
+        padding-left: 9px;
+    }
+    
+    li i{
+        float: right;
+        cursor: pointer;
+        background-color: whitesmoke !important;
+    }
+    
+    #app {
+        
+        background: whitesmoke;
+        box-shadow:
+          /* The top layer shadow */
+          rgba(0, 0, 0, 0.2) 0px 18px 50px -10px,
+          0 1px 1px rgba(0,0,0,0.15),
+          /* The second layer */
+          0 10px 0 -5px #eee,
+          /* The second layer shadow */
+          0 10px 1px -4px rgba(0,0,0,0.15),
+           /* The third layer */
+          0 20px 0 -10px #eee,
+          /* The third layer shadow */
+          0 20px 1px -9px rgba(0,0,0,0.15);
+          /* Padding for demo purposes */
+          
+          padding: 30px;
+          width: 30%;
+          padding: 0;
+          margin: 0;
+          padding-bottom: 0px;
+          height: auto;
+    }
+    
+    .footer {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 15px;
+        font-weight: 60;
+        font-size: small;
+    }
